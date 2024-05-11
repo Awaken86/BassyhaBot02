@@ -9,8 +9,11 @@
     "author": "Awaken86",
     "license": "ISC",
     "dependencies": {
-        "discord.js": "^14.14.1",
-        "dotenv": "^16.4.5"
+        "@discordjs/voice": "^0.16.1",
+        "discord.js": "^14.15.2",
+        "dotenv": "^16.4.5",
+        "libsodium-wrappers": "^0.7.13",
+        "sass": "^1.75.0"
     },
     "devDependencies": {
         "eslint": "^9.1.1"
