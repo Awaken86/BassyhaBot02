@@ -5,7 +5,7 @@ const path = require('node:path');
 const token = process.env.DISCORD_TOKEN
 
 // Create a new client instance
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates] });
 
 client.cooldowns = new Collection();
 client.commands = new Collection();
